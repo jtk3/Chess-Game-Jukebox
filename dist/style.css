@@ -20,3 +20,5 @@
 
 /* Give the game actions a more forgiving target on television screens. */
 .playcontrols .next-actions .skip{min-height:30px}@media (min-width:480px) and (min-aspect-ratio:6/5){.playcontrols .next-actions .skip{min-height:clamp(25px,3.5vh,34px)}}
+
+.board-result.forfeit{flex-direction:column;font-size:clamp(32px,12cqw,100px);line-height:1.12;letter-spacing:-.02em}
