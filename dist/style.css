@@ -6,3 +6,6 @@
 
 .portrait img.gukesh{object-position:50% 25%}.portrait img.sindarov{object-position:50% 30%}
 .photo-credits summary{cursor:pointer;color:#d7c18e;font-weight:bold;letter-spacing:.05em;padding:7px 0}.photo-credits>div{padding:4px 0 8px}
+
+/* One shared design per piece; invert the same artwork for Black. */
+.square img.piece{width:90%;height:90%;object-fit:contain;user-select:none;pointer-events:none;filter:none;-webkit-text-stroke:0;text-shadow:none}.square img.piece.black{filter:invert(1);-webkit-text-stroke:0;text-shadow:none}
