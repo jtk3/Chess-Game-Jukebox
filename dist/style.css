@@ -30,3 +30,6 @@
 
 /* Allow each board track to shrink with the evaluation bar on narrow screens. */
 .board{width:100%;grid-template-columns:repeat(8,minmax(0,1fr))}.square{min-width:0;min-height:0}
+
+/* Paint the split directly on the bar for TV browsers with flex height quirks. */
+.eval-bar{background-image:linear-gradient(to top,#fff 0%,#fff 50%,#000 50%,#000 100%)}.eval-white{display:none}
