@@ -36,3 +36,6 @@
 
 /* Keep bar colors consistent in browsers that alter page background colors. */
 .eval-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+
+/* Keep the score outside the bar so it never obscures the boundary. */
+.board-heading .eval-number{position:static;transform:none;padding:0;color:#fff;background:none;text-shadow:none;font:bold 12px Arial,sans-serif;letter-spacing:0}.board-heading .eval-number[hidden]{display:none}
