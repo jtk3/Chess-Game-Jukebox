@@ -58,3 +58,6 @@
 
 /* Keep the game count close to the top of the board. */
 .board-heading{position:relative;padding-bottom:4px}.board-heading .eval-number{position:absolute;left:0;bottom:4px;width:clamp(22px,2.5vw,34px);margin:0;text-align:center}.board-heading .eval-number[hidden]{display:none}@media (min-width:480px) and (min-aspect-ratio:6/5){.board-heading .eval-number{width:clamp(20px,2vw,32px)}}
+
+/* Center the score on the game-count line, above the bar. */
+.board-heading .eval-number{top:calc(50% - 2px);bottom:auto;transform:translateY(-50%)}
