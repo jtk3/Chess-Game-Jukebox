@@ -52,3 +52,6 @@
 
 /* Align the game count with the centered evaluation button. */
 .board-heading #gamecount{flex:1;margin:0;text-align:center}.with-evaluation .board-heading{padding-left:calc(clamp(22px,2.5vw,34px) + 8px)}@media (min-width:480px) and (min-aspect-ratio:6/5){.with-evaluation .board-heading{padding-left:calc(clamp(20px,2vw,32px) + .6vw)}}
+
+/* Keep both frequently used controls together beneath the move information. */
+.board-control-top{min-height:20px}.board-control-bottom{gap:8px;flex-wrap:wrap}.board-control-bottom button{white-space:nowrap}@media (min-width:480px) and (min-aspect-ratio:6/5){.board-control-top{min-height:clamp(14px,2vh,20px)}}
