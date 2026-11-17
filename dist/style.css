@@ -61,3 +61,5 @@
 
 /* Center the score on the game-count line, above the bar. */
 .board-heading .eval-number{top:calc(50% - 2px);bottom:auto;transform:translateY(-50%)}
+
+.square img.piece.themed.black{filter:none}.appearance{margin:24px 0;padding:18px;border:1px solid #46544d;border-radius:8px}.appearance h3{margin:0 0 16px}.appearance-controls{display:flex;gap:12px}.appearance-controls label{display:flex;flex:1;flex-direction:column;gap:8px;font-size:11px}.appearance-controls select{width:100%;min-width:0}.appearance-caption{font-size:12px;margin:16px 0 10px;color:#c4c8b9}.appearance-preview{width:min(100%,390px);aspect-ratio:1;margin:auto}.appearance-preview .square{position:relative}.appearance-preview .square img.piece{width:90%;height:90%}
