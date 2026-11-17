@@ -1,4 +1,4 @@
-import {setupAppearance,styleSquare,pieceSrc,pieceClass} from './appearance.js';
+import {setupAppearance,styleSquare,pieceSrc,pieceClass} from './appearance.js?v=36';
 import {LiveEvaluation} from './evaluation.js';
 import {historicalPortraits} from './portraits.js';
 import {archive} from './archive.js';

@@ -1,5 +1,5 @@
 const pieceSets = [
-  ['cburnett','Cburnett'], ['chessnut','Chessnut (original)'], ['kaneo','Kaneo'],
+  ['cburnett','Cburnett (default)'], ['chessnut','Chessnut'], ['kaneo','Kaneo'],
   ['livius','Livius'], ['hera','Hera'], ['celtic','Celtic'], ['fantasy','Fantasy'],
   ['spatial','Spatial'], ['firi','Firi'], ['papercut','Papercut'], ['totoy','Totoy'],
   ['rhosgfx','RhosGFX'], ['kiwen-suwi','Kiwen-suwi']
